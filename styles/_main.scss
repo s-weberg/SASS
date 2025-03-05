@@ -1,0 +1,45 @@
+$main-txt-color: #111111;
+
+.main {
+    .main {
+        min-height: 90vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+        
+        &__heading {
+            text-align: center;
+            $main-txt-color: #111111;
+            padding-top: 20px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+    
+        &__subhead {
+            font-size: 22px;
+            font-weight: bold;
+            $main-txt-color: #111111;
+            margin-left: 126px;
+            padding-top: 96px;
+        }
+    
+        &__header {
+            max-width: 600px;
+            width: 100%;
+            font-weight: bold;
+            $main-txt-color: #111111;
+            margin-left: 126px;
+            padding-top: 32px;
+        }
+    } 
+}
+
+.section {
+    max-width: 357px;
+    width: 100%;
+    margin-left: 126px;
+    display: flex;
+    flex-direction: column;
+
+}
