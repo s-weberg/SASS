@@ -19,7 +19,7 @@ $main-txt-color: #111111;
         &__subhead {
             font-size: 22px;
             font-weight: bold;
-            $main-txt-color: #111111;
+            color: #4A4FF2;
             margin-left: 126px;
             padding-top: 96px;
         }
@@ -27,19 +27,81 @@ $main-txt-color: #111111;
         &__header {
             max-width: 600px;
             width: 100%;
+            font-size: 40px;
             font-weight: bold;
             $main-txt-color: #111111;
             margin-left: 126px;
             padding-top: 32px;
+            display: flex;
+            display: inline-block;
         }
-    } 
+
+        &__quote {
+            font-size: 18px;
+            font-weight: italic;
+            $main-txt-color: #111111;
+            margin-left: 190px;
+            display: flex;
+            display: inline-block;
+            opacity: 60%;
+        }
+
+        &__info {
+            max-width: 600px;
+        width: 100%;
+        font-size: 28px;
+        line-height: 38px;
+        font-weight: bold;
+        $main-txt-color: #111111;
+        margin-left: 126px;
+        padding-top: 32px;
+        display: flex;
+        display: inline-block;
+        }
+    }
+     
 }
 
-.section {
-    max-width: 357px;
-    width: 100%;
-    margin-left: 126px;
-    display: flex;
-    flex-direction: column;
 
-}
+    .info {
+        max-width: 600px;
+        width: 100%;
+        font-size: 28px;
+        line-height: 38px;
+        font-weight: bold;
+        $main-txt-color: #111111;
+        margin-left: 126px;
+        padding-top: 32px;
+        display: flex;
+        display: inline-block;
+    }
+
+    .nav-second {
+        $main-txt-color: #111111;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        align-self: space-between;
+        margin-right: 30px;
+        margin-left: 800;
+
+        &__second {
+            display: flex;
+    
+        }
+    
+        &__li {
+            list-style: none;
+            margin: 11px;
+            
+        }
+        
+        &__link {
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+    
+    }
+
+

@@ -1,5 +1,10 @@
+body {
+    max-width: 1293px;
+    height: 100vh;
+}
+
 header {
-    
+    max-width: 1110px;
     border-bottom: 1px solid #2196f3;
     margin-left: 126px;
     display: flex;
@@ -8,7 +13,6 @@ header {
 }
 
 .logo {
-    
     display: flex;
     justify-content: flex-start;
 }
@@ -22,6 +26,7 @@ header {
     align-content: baseline;
     align-self: space-between;
     margin-right: 30px;
+    margin-left: 800;
     
     &__list {
         display: flex;

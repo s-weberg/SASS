@@ -1,0 +1,37 @@
+.container {
+    width: 1110px;
+}
+
+.image-first {
+    max-width: 357px;
+    width: 100%;
+    margin-left: 126px;
+    display: flex;
+    justify-self: flex-start;
+}
+
+.image-second {
+    max-width: 357px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 126px;
+    display: flex;
+    justify-self: flex-start;
+}
+
+.image-third {
+    max-width: 356px;
+    width: 100%;
+    display: flex;
+    justify-self: center;
+    
+}
+
+.image-fourth {
+    max-width: 356px;
+    width: 100%;
+    display: flex;
+    justify-self: flex-end;
+    margin-left: 27px;
+    
+}
